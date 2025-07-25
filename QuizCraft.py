@@ -30,7 +30,7 @@ class QuizApp:
                 host='localhost',
                 database='quiz_app',
                 user='root',  # Change to your MySQL username
-                password='p@$$word12'   # Change to your MySQL password
+                password='<enter your password>'   # Change to your MySQL password
             )
             return connection
         except Error as e:
